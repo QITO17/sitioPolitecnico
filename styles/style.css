@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: inherit;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.conteiner--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project{
+    list-style: none;
+    gap: 10px;
+    display: flex;
+}
+
+.project li{
+    color: #3553a2;
+}
+
+.principal{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 10px;
+    justify-content: center;
+}
+
+.conten--img{
+    width: 500px;   
+}
+
+.conten--img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius:60%;
+}
+
+.saludo{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.description{
+    max-width: 250px;
+}
+
+.resomer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+.circles{
+    display: flex;
+    gap: 5px;
+}
+.circles div{
+    padding-top: 65px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.amarillo{
+    background-color: #fcb900;
+    border:#fcb900 solid 1px;
+}
+
+.azul{
+    background-color: #3553a2;
+    border:#3553a2 solid 1px;
+}
+
+.rojo{
+    background-color: #f44336;
+    border:#f44336 solid 1px;
+}
+
+.circles div:hover{
+    transition: 1s;
+    background-color: #fff;
+    color: #000;
+}
+
+.conteiner--footer{
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.project a{
+    text-decoration: none;
+}
+.project a li:hover{
+    transition: 1s;
+    color: #f44336;
+}
